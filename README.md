@@ -4,7 +4,7 @@ Example run for iterative magnitude pruning,
 "python3 main.py --experiment multishot --expid construct-init-2 --model fc_mnist --dataset mnist --model-class default --train-batch-size 256 --prune-dataset-ratio 25 --test-batch-size 512 --pruner mag --prune-bias True --verbose --post-epochs 50 --pre-epochs 10 --level 10 --sparsity 0.01 --lr 0.01 --result-dir testFolder/ --mask-scope local --weight-decay 1e-3"
 
 ########
-Edge Pop Up: This folder implements the edge popup and the scaled edge popup algorithm as detailed in our paper. We run experiments on CIFAR, MNIST, Autoencoders (CIFAR) and tabular data.
+Edge Pop Up: This folder implements the edge popup and the scaled edge popup algorithm as detailed in our paper. We run experiments on CIFAR, MNIST, Autoencoders (CIFAR) and tabular data. This code is built on the work of the edge popup authors, from https://github.com/allenai/hidden-networks
 Example run with,
 "bash run_cifar_exp.sh"
 
